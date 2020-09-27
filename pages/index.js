@@ -1,6 +1,7 @@
 import Nav from '../components/nav';
 import Layout from '../components/layout';
 import ExternalLink from '../components/icons/ExternalLink';
+import Form from '../components/form';
 
 export default function IndexPage() {
   return (
@@ -183,41 +184,7 @@ export default function IndexPage() {
 
         <div className="py-8">
           <h3 className="font-medium text-xl text-gray-900">Get in touch</h3>
-          <form className="flex flex-col pt-2">
-            <div className="py-2">
-              <label htmlFor="name" className="block leading-5  text-gray-700 pb-1">
-                Name
-              </label>
-              <input
-                id="name"
-                className="form-input block w-full pl-7 pr-12 sm:text-sm sm:leading-5"
-                placeholder="Your name"
-              />
-            </div>
-            <div className="py-2">
-              <label htmlFor="email" className="block leading-5 text-gray-700 pb-1">
-                Email
-              </label>
-              <input
-                id="email"
-                className="form-input block w-full pl-7 pr-12 sm:text-sm sm:leading-5"
-                placeholder="Your email"
-              />
-            </div>
-            <div className="py-2">
-              <label htmlFor="message" className="block leading-5 text-gray-700 pb-1">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="form-input block w-full pl-7 pr-12 sm:text-sm sm:leading-5"
-                placeholder="Your message 🙂"
-              />
-            </div>
-            <button className="bg-teal-500 hover:bg-teal-700 text-red-100 rounded py-2 mt-4">
-              Send
-            </button>
-          </form>
+          <Form />
         </div>
       </div>
     </Layout>
