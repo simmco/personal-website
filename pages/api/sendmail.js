@@ -8,7 +8,7 @@ export default (req, res) => {
 
   return sgMail
     .send({
-      from: email, // sender address
+      from: 'm.simmelbauer@gmail.com', // sender address
       to: 'm.simmelbauer@gmail.com', // list of receivers
       subject: `Nachricht von ${name} - ${email}`, // Subject line
       text: 'ERFOLG', // plain text body
