@@ -53,7 +53,9 @@ export default function IndexPage() {
               <span className="rounded-lg bg-teal-300 px-2 py-1 text-white">JamStack</span>
             </li>
             <li className="mb-2">
-              <span className="rounded-lg bg-teal-300 px-2 py-1 text-white">Lambda/Serverless</span>
+              <span className="rounded-lg bg-teal-300 px-2 py-1 text-white">
+                Lambda / Serverless
+              </span>
             </li>
           </ul>
         </div>
