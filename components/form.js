@@ -4,7 +4,8 @@ const Form = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     fetch('/api/sendmail', { method: 'POST', body: JSON.stringify({ name, email, message }) });
   };
   return (
