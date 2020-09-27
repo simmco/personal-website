@@ -6,7 +6,13 @@ const Form = () => {
   const [message, setMessage] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('/api/sendmail', { method: 'POST', body: JSON.stringify({ name, email, message }) });
+    fetch('/api/sendmail', { method: 'POST', body: JSON.stringify({ name, email, message }) }).then(
+      () => {
+        setName('');
+        setEmail('');
+        setMessage('');
+      }
+    );
   };
   return (
     <form className="flex flex-col pt-2" onSubmit={handleSubmit}>
