@@ -78,7 +78,7 @@ export default function IndexPage() {
             <ul className="p-2">
               <li>- Migrated legacy codebase from AngularJS to React.js</li>
               <li>
-                - Using React latest API: using just functional components, hooks, context,{' '}
+                - Using React latest API: only functional components, hooks, context,{' '}
                 <a
                   href="https://github.com/tannerlinsley/react-query"
                   target="_blank"
