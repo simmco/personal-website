@@ -77,6 +77,17 @@ export default function IndexPage() {
             <p className="text-sm">Vancouver / Canada</p>
             <ul className="p-2">
               <li>- Migrated legacy codebase from AngularJS to React.js</li>
+              <li>
+                - Using React latest API: using just functional components, hooks, context,{' '}
+                <a
+                  href="https://github.com/tannerlinsley/react-query"
+                  target="_blank"
+                  className="text-teal-500 font-medium"
+                >
+                  react-query
+                </a>{' '}
+                for async data.
+              </li>
               <li>- Build reusable UI Components based on PayByPhone guidelines</li>
               <li>- Introduced / implemented state machines for complex flows</li>
             </ul>
