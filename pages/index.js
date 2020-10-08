@@ -89,6 +89,10 @@ export default function IndexPage() {
                 for async data.
               </li>
               <li>- Build reusable UI Components based on PayByPhone guidelines</li>
+              <li>
+                - Storybook driven development, UIs are build from a reusable perspective so it can
+                be reused across the company and documented in Storybook
+              </li>
               <li>- Introduced / implemented state machines for complex flows</li>
             </ul>
           </div>
